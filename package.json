@@ -1,0 +1,24 @@
+{
+  "name": "pdf_crawler",
+  "version": "1.0.0",
+  "description": "crawl webpage and save as pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norman0612/pdf_crawler.git"
+  },
+  "author": "Lixing Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norman0612/pdf_crawler/issues"
+  },
+  "homepage": "https://github.com/norman0612/pdf_crawler#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "puppeteer": "^13.4.0"
+  }
+}
